@@ -10,4 +10,4 @@ if __name__ == '__main__':
     xml = sys.stdin.read()
     tree = etree.ElementTree(etree.fromstring(xml))
     root = tree.getroot()
-    print(get_attr_number(root))
+    print(get_attr_number(root)),
