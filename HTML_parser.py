@@ -14,4 +14,4 @@ class MyHTMLParser(HTMLParser):
             print ('->',ele[0],'>',ele[1])
             
 MyParser = MyHTMLParser()
-MyParser.feed(''.join([input().strip() for _ in range(int(input()))]))
+MyParser.feed(''.join([input().strip() for _ in range(int(input()))])
