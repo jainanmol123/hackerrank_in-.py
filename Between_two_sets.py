@@ -21,4 +21,4 @@ while lcm <= gcd:
         count += 1
     lcm = lcm + lcm_copy
 
-print(count)
+print(count
